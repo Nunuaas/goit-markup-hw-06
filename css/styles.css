@@ -648,3 +648,50 @@ body{
    transform: translateY(0%);
 }
 
+.modal-rubric{
+   color: var(--dark-color); 
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.5em;
+   text-align: center;
+   padding: 72px 24px 16px 24px;
+   letter-spacing: 0.02em;
+}
+
+.label-div{
+   display: flex;
+   flex-direction: column;
+   padding: 0px 24px 8px 24px;
+   position: relative;
+}
+
+.input-div{
+   position: relative;
+}
+
+
+label{ 
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   color: var(--subtle-text);
+   line-height: 0.9em;
+   letter-spacing: 0.03em;
+   margin-bottom: 4px;
+}
+
+.input-div> input{
+   width: 100%;
+   border-radius: 4px;
+   border: 1px solid var(--dark-color, rgba(46, 47, 66, 0.40));
+   height: 40px;
+   padding: 11px 11px 11px 38px;
+}
+
+.form-icons{   
+   position: absolute;
+   transform: translateY(-50%);
+   left: 16px;
+   top: 50%;
+}
