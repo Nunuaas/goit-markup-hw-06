@@ -755,3 +755,13 @@ height: 16px;
    border: none;
    fill: var(--light-color);
 }
+
+.policy-link{ 
+   color: var(--primary-brand-color);
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.33em;
+   letter-spacing: 0.04em;
+   text-decoration-line: underline;
+}
