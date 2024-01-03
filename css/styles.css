@@ -689,6 +689,13 @@ label{
    height: 40px;
    padding: 11px 11px 11px 38px;
    outline: transparent;
+   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-div> input:focus{
+   border: 1px solid var(--primary-brand-color);
+   fill: var(--primary-brand-color);
 }
 
 .form-icons{   
@@ -696,6 +703,9 @@ label{
    transform: translateY(-50%);
    left: 16px;
    top: 50%;
+   fill: var(--modal-overlay);
+   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 textarea{    
