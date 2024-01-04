@@ -575,6 +575,7 @@ body{
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%) scale(1);
+   padding: 72px 24px 24px 24px;
 }
 
 .button-icon-close{
@@ -656,14 +657,14 @@ body{
    font-weight: 500;
    line-height: 1.5em;
    text-align: center;
-   padding: 72px 24px 16px 24px;
+   padding-bottom: 16px;
    letter-spacing: 0.02em;
 }
 
 .label-div{
    display: flex;
    flex-direction: column;
-   padding: 0px 24px 8px 24px;
+   padding-bottom: 8px;
    position: relative;
 }
 
@@ -736,7 +737,8 @@ textarea:focus{
 .terms-checkbox-div{
    position: relative;
    display: flex;
-   padding: 8px 22px 24px 24px;
+   padding-bottom: 24px;
+   padding-top: 8px;
 }
 
 .terms-checkbox-div> label{ 
