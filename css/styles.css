@@ -712,7 +712,11 @@ label{
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-textarea{    
+.textarea-div{
+   margin-bottom: 16px;
+}
+
+.textarea{    
    width: 100%;
    border-radius: 4px;
    border: 1px solid rgba(46, 47, 66, 0.40);
@@ -738,8 +742,7 @@ textarea:focus{
 .terms-checkbox-div{
    position: relative;
    display: flex;
-   padding-bottom: 24px;
-   padding-top: 8px;
+   margin-bottom: 24px;
 }
 
 .terms-checkbox-div> label{ 
