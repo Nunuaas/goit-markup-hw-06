@@ -791,6 +791,15 @@ height: 16px;
    margin-left: 80px;
 }
 
+.footer-form{
+   display: flex;
+   align-items: baseline;
+}
+
+.label-footer-sub{
+   margin: auto;
+}
+
 .input-footer-sub{ 
    width: 264px;
    height: 40px;
@@ -802,18 +811,20 @@ height: 16px;
    font-size: 12px;
    font-style: normal;
    font-weight: 400;
-   line-height: 2em;
+   line-height: 1.5em;
    letter-spacing: 0.04em;
    padding: 8px 16px;
    cursor: pointer;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
 }
 
 .button-icon{
    fill: var(--white-background);
+   margin-left: 16px;
 }
 
 .button-footer{
-   display: inline-flex;
+   display: flex;
    padding: 8px 24px;
    justify-content: center;
    align-items: center;
@@ -825,6 +836,10 @@ height: 16px;
    margin-left: 24px;
    cursor: pointer;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   min-width: 165px;
+   font-weight: 500;
+   line-height: 1.5em;
+   letter-spacing: 0.04em;
 }
 
 
