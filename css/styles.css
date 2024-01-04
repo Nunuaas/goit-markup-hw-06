@@ -657,7 +657,7 @@ body{
    font-weight: 500;
    line-height: 1.5em;
    text-align: center;
-   padding-bottom: 16px;
+   margin-bottom: 16px;
    letter-spacing: 0.02em;
 }
 
@@ -679,8 +679,8 @@ label{
    font-style: normal;
    font-weight: 400;
    color: var(--subtle-text);
-   line-height: 0.9em;
-   letter-spacing: 0.03em;
+   line-height: 1.17em;
+   letter-spacing: 0.04em;
    margin-bottom: 4px;
 }
 
@@ -692,7 +692,8 @@ label{
    padding: 11px 11px 11px 38px;
    outline: transparent;
    cursor: pointer;
-   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   background-color: transparent;
+   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-div> input:focus{
@@ -818,6 +819,7 @@ height: 16px;
    padding: 8px 16px;
    cursor: pointer;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
+   gap: 24px;
 }
 
 .button-icon{
