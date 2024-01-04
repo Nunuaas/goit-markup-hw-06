@@ -671,6 +671,7 @@ body{
 .input-div{
    position: relative;
    cursor: pointer;
+   gap: 24px;
 }
 
 
