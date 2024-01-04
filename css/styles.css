@@ -664,7 +664,7 @@ body{
 .label-div{
    display: flex;
    flex-direction: column;
-   padding-bottom: 8px;
+   margin-bottom: 8px;
    position: relative;
 }
 
@@ -708,8 +708,7 @@ label{
    transform: translateY(-50%);
    left: 16px;
    top: 50%;
-   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 textarea{    
@@ -724,9 +723,10 @@ textarea{
    font-weight: 400;    
    line-height: 1.17em;
    letter-spacing: 0.04em;
-   color: var(--modal-overlay, rgba(46, 47, 66, 0.40));
+   color: rgba(46, 47, 66, 0.40);
+   background-color: transparent; 
    outline: transparent;
-   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    cursor: pointer;
 }
 
