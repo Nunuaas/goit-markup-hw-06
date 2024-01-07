@@ -533,8 +533,8 @@ body{
    flex-direction: column;
    }
 
-.social-div-footer>.social-media-footer>.icon-list>.social-media-link:hover,
-.social-div-footer>.social-media-footer>.icon-list>.social-media-link:focus{
+   .social-div-footer .social-media-link:hover,
+   .social-div-footer .social-media-link:focus {
    background-color: #31D0AA;
 }
 .footer-main-div{
